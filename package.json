@@ -4,11 +4,13 @@
     "description": "",
     "main": "mongo_prj.js",
     "scripts": {
-        "dev": "nodemon mongo_prj.js"
+        "dev": "nodemon mongo_prj.js",
+        "test": "mocha"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "assert": "^2.0.0",
         "babel": "^6.23.0",
         "mocha": "^8.0.1",
         "mongodb": "^3.5.9",
