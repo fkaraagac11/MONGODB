@@ -12,9 +12,11 @@
     "dependencies": {
         "assert": "^2.0.0",
         "babel": "^6.23.0",
+        "before": "0.0.1",
         "mocha": "^8.0.1",
         "mongodb": "^3.5.9",
-        "mongoose": "^5.9.20"
+        "mongoose": "^5.9.20",
+        "promise": "^8.1.0"
     },
     "devDependencies": {
         "nodemon": "^2.0.4"

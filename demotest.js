@@ -5,6 +5,6 @@ describe("some demo tests", () => {
     // create tests
 
     it("add two numbers together", () => {
-        assert(2 + 3 === 5);
+        assert(2 + 3 == 5);
     });
 });
